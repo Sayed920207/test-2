@@ -1,0 +1,732 @@
+body{
+    margin: 0%;
+}
+.clear{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* */
+/* First section */
+.home{
+    width:100%;
+    height:100vh;
+    background: rgba(0, 0, 0, 0.78)url(../images/hero\ img.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;;
+    margin-bottom: 50px;
+}
+.logo{
+    width: 30%;
+    float: left;
+    padding-top:15px ;
+    padding-left:110px;
+}
+.logo a{
+    color: #FF305B;
+    font-weight: 800;
+    font-size: 26px;
+    text-decoration: none;
+}
+.links{
+    width: 50%;
+    float: right;
+    padding-right:5px;
+    padding-top: 9px;
+}
+.links ul{
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    padding:0px 10px;
+    font-size: 16px;
+    font-weight: 300;
+    transition: color 1s;
+}
+.links a:hover{
+    color: #FF305B;
+}
+.home-hi{
+    text-align: center;
+    padding-top: 155px;
+    
+}
+.home-hi h1{
+    color: #FF305B;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.home-hi h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 9px;
+    margin-bottom:9px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.home-hi h4{
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom:5px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.home-hi h4::after{
+    content: "|";
+}
+/* /-----------------------------------------------------------------/ */
+/*  */
+/* Section two */
+.about{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.about-image{
+    width:50%;
+    float: left;
+    padding-left:70px;
+    position: relative;
+}
+.back-border{
+    background-color: #ffffff;
+    width:60%;
+    height:100%;
+    border: solid 8px #555555;
+    border-radius: 10px;  
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+.about-image img{
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+}
+.about-image .inner{
+    position: relative;
+    overflow: hidden;
+}
+.about-image .layer{
+    color: white;
+    text-align: center;
+    width:75%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.606);
+    border-radius: 10px;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    transition: top 0.5s;
+}
+.inner:hover .layer{
+    top: 0;
+}
+.layer i{
+padding:200px 5px;
+font-size: 18px;
+}
+.layer i:hover{
+    color: #FF305B;
+}
+.about-cont{
+    width:50%;
+    float: left;
+}
+.about-cont h2{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size:35px;
+    font-weight:600;
+    color:#333333 ;
+    margin: 0%;
+    display: inline-block;
+}
+.about-cont p{
+    font-family: 'Roboto', sans-serif;;
+    font-size:16px;
+    font-weight: 400;
+    color: #555555;
+    border-bottom: dashed #FF305B 1px;
+    padding-bottom:20px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+.shape{
+    width: 4px;
+    height: 25px;
+    background-color: #FF305B;
+    display: inline-block;
+}
+.list1{
+    display: inline-block;
+    list-style: none;
+    padding:0px 0px;
+    margin-right:90px;
+}
+.list1 li{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    padding: 10px 0px;
+}
+.list2{
+    display: inline-block;
+    list-style: none;
+    padding:0px 0px;
+}
+.list2 li{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    padding: 10px 0px;
+}
+.list2 a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+}
+.about span{
+    color: #333333;
+    font-weight:500;
+}
+.about-cont button{
+    padding: 10px 30px;
+    margin-right: 10px;
+    background-color: #FF305B;
+    color: white;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 400;
+    font-size: 17px;
+    border-width: 0px;
+    border-radius: 4px;
+}
+.about-cont button:hover{
+    background-color: #EC2403;
+}
+/* /-----------------------------------------------------------------/ */
+
+/* Section Three */
+.services{
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.services h2{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 1px;
+}
+.services .shape1{
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.services .shape2{
+    width: 170px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.services .shape3{
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.services .serv{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+.serv i{
+    font-size: 25px;
+    color:#FF305B ;
+    transition: transform 0.5s;
+}
+.serv h3{
+    font-family: 'Source Sans 3', sans-serif;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+}
+.serv p{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 1.5;
+}
+.serv:hover{
+    background-color: white;
+}
+.serv:hover i{
+    transform: scale(1.2);
+}
+/* /-----------------------------------------------------------------/ */
+/* Section Four */
+.portofolio{
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.portofolio h2{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 1px;
+}
+.portofolio .shape1{
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.portofolio .shape2{
+    width: 170px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.portofolio .shape3{
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.portofolio button{
+    border: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    margin: 25px 5px 30px 25px;
+}
+.item{
+    width: 33.33%;
+    float: left;
+    padding: 10px 10px;
+}
+.item img{
+    width: 100%;
+}
+.inneer{
+    position: relative;
+    overflow:hidden ;
+}
+.inneer .layeer{
+    background-color:rgba(0, 0, 0, 0.412);
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+.inneer:hover .layeer{
+    opacity: 1;
+}
+/* /-----------------------------------------------------------------/ */
+
+/* Section 5 */
+.numbers{
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.result{
+    width: 25%;
+    float: left;
+}
+.result i{
+    font-size: 24px;
+    color:#FF305B ;
+    margin: 5px 0px;
+}
+.result h3{
+    font-family: 'Source Sans 3', sans-serif;
+    color: #333333;
+    font-size: 26px;
+    font-weight: 800;
+    margin: 5px 0px;
+}
+.result h5{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555555;
+    margin: 5px 0px;
+}
+/* /-----------------------------------------------------------------/ */
+
+/* Section Six */
+.testimonial{
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.testimonial h2{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 1px;
+    text-align: center;
+}
+.testimonial .shape1{
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.testimonial .shape2{
+    width: 170px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.testimonial .shape3{
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.card{
+    width: 70%;
+    height: 280px;
+    margin: auto;
+    background-color: #F1F1F1;
+    margin-top: 25px;
+    padding-top: 50px;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+.card-image{
+    width: 20%;
+    height: 177px;
+    text-align: center;
+    float: left;
+    padding-left: 25px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.card-image img{
+    width: 70%;
+    border-radius: 50%;
+    z-index: 9999999;
+    position: relative;
+}
+.card-cont{
+    width: 70%;
+    float: left;
+    padding-left: 0px;
+}
+.card-cont h3{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #333333;
+    margin:10px 0px;
+}
+.card-cont h4{
+    font-family: 'Source Sans 3', sans-serif;
+    color: #777777;
+    font-weight: 600;
+    font-size: 15px;
+    margin:10px 0px;
+}
+.card-cont p{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 1.5;
+    margin: 10px 0px;
+}
+.stars i{
+    font-size: 14px;
+    color: #F1C30D;
+    margin: 2px;
+}
+.tb1{
+    background-color: #FF305B;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 40px;   
+}
+.tb2{
+    background-color: #ffffff;
+    border: solid 1px #FF305B;
+    padding: 5px 5px;
+    border-radius: 50%;   
+}
+.card .design{
+    width: 300px;
+    height: 400px;
+    background-color: #FF305B;
+    position: absolute;
+    top: -70%;
+    left: -22%;
+    transform: rotate(45deg);
+}
+/* /-----------------------------------------------------------------/ */
+
+/* Section Seven */
+.blog{
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-color: #F1F1F1;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.blog h2{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 1px;
+    text-align: center;
+}
+.blog .shape1{
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.blog .shape2{
+    width: 170px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.blog .shape3{
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.bl{
+    width: 33.33%;
+    float: left;
+    padding: 15px 10px ;
+}
+.in{
+    background-color: #ffffff;
+    padding-bottom: 25px;
+}
+.bl img{
+    width: 100%;
+}
+.bl iframe{
+    width: 100%;
+}
+.bl h4{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    padding-left: 15px;
+    margin: 20px 0px 10px 0px;
+}
+.bl h3{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    padding-left: 15px;
+    margin: 5px 0px;
+}
+.bl p{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.bl a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    padding-left: 15px;
+    transition: color 1s;
+}
+.bl:hover a{
+    color: #FF3F67;
+}
+/* /-----------------------------------------------------------------/ */
+/* Section Eight */
+.contact{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.contact h2{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #333333;
+    margin-bottom: 1px;
+    text-align: center;
+}
+.contact .shape1{
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.contact .shape2{
+    width: 170px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.contact .shape3{
+    width: 80px;
+    height: 1px;
+    background-color: #FF305B;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.parent{
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+.input1{
+    width: 48%;
+    padding: 10px;
+    margin-right: 22.25px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: #cdcdcd solid 2px;
+}
+.input2{
+    width:48%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: #cdcdcd solid 2px;
+}
+.input3{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: #cdcdcd solid 2px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: #cdcdcd solid 2px;
+}
+.parent button{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: #cdcdcd solid 0px;
+    background-color: #FF305B;
+    color: white;
+    padding: 15px;
+    transition: background-color 0.5s;
+}
+.parent button:hover{
+    background-color: #EC2403;
+}
+
+/* Section Nine */
+.footer{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: #333333;
+}
+.ending{
+    text-align: center;
+}
+.ending p{
+    color: white;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+}
+.end-links a{
+    color: white;
+    margin: 8px;
+}
+.end-links i{
+    transition: color 0.5s;
+}
+.end-links a:hover i{
+    color: #ff305b;
+}
+.theme a{
+    color: #ff305b;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
